@@ -1,0 +1,235 @@
+body
+{
+    font-family: 'Economica', sans-serif;
+    font-size: 1.25rem;
+    margin: 0;
+}
+
+.wrapper
+{
+    color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./Background\ 2.jpg");
+    background-size: cover;
+}
+
+.profilepic
+{
+    width: 256px;
+    height: 160px;
+    border-radius: 100px;
+    border: 5px solid rgb(218, 215, 215);
+}
+
+.name
+{
+    font-family: 'Romanesco', cursive;
+    font-size: 5rem;
+    margin: 20px 0;
+}
+
+/*
+.nameline
+{
+    width: 40%;
+}
+*/
+
+.quoteline1
+{
+    width: 50%;
+}
+.quote1
+{
+    font-family: 'Great Vibes', cursive;
+    font-size: 1.75rem;
+    margin: 10px 0 0 0;
+    align-items: center; 
+}
+
+.quote2
+{
+    font-family: 'Great Vibes', cursive;
+    font-size: 1.75rem;
+    margin: 0 0 10px 0;
+    align-items: center;
+}
+.quoteline2
+{
+    margin-top: 7px;
+    width: 50%;
+}
+
+.nav-wrapper
+{
+    position: absolute;
+    bottom: 0;
+    border-radius: 10px;
+    /*background-color: rgb(71, 155, 233);*/
+}
+
+.nav
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.nav a
+{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+}
+.logo1
+{
+    width: 20px;
+    height: 20px;
+}
+.logo2
+{
+    width: 20px;
+    height: 20px;
+}
+.nav a:hover
+{
+    opacity: 0.7;
+    border-radius: 10px;
+    color: teal;
+    background-color: rgb(188, 188, 247);
+}
+
+.intro-wrapper
+{
+    border-radius: 10px;
+}
+
+.nav2
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.nav2 a
+{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+}
+
+.nav2 a:hover
+{
+    opacity: 0.7;
+    border-radius: 10px;
+    color: teal;
+    background-color: rgb(188, 188, 247);
+}
+
+.hobby-wrapper
+{
+    margin: 20px 0;
+    letter-spacing: 2px;
+    font-size: 3rem;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;     
+}
+.h1
+{
+    margin: 40px 0;
+}
+.h2
+{
+    margin: 40px 0;
+}
+.h3
+{
+    margin: 40px 0;
+}
+.h4
+{
+    margin: 40px 0;
+}
+
+.pic-link-wrapper
+{
+    width: 100vw;
+    display: flex;
+    /* position: absolute; */
+    /* border-radius: 10px; */
+}
+.musicpic
+{
+    width: 285px;
+    height: 240px;
+    position: absolute;
+	top: 0;
+    left: 0;
+    border: 5px solid gainsboro;
+    border-radius: 40px;
+}
+.basketpic
+{
+    width: 285px;
+    height: 240px;
+    position: absolute;
+	top: 0;
+    right: 0;
+    border: 5px solid gainsboro;
+    border-radius: 40px;
+}
+.writingpic
+{
+    width: 285px;
+    height: 240px;
+    position: absolute;
+	bottom: 0;
+    left: 0;
+    border: 5px solid gainsboro;
+    border-radius: 40px;
+}
+.friendspic
+{
+    width: 285px;
+    height: 240px;
+    bottom: 0;
+	right: 0;
+    position: absolute;
+    border: 5px solid gainsboro;
+    border-radius: 40px;
+}
+.skill-wrapper
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Edu-wrapper
+{
+    color: gold;
+    margin: 20px 20px;
+    font-size: 2.75rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Edu-wrapper a
+{
+    color: gold;
+    text-decoration: none;
+    padding: 5px;
+}
+.Edu-wrapper a:hover
+{
+    background-color: white;
+    border-radius: 20px;
+    padding: 5px;
+    opacity: 0.7;
+}
